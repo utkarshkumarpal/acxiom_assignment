@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+        }
+
+        .container {
+            width: 700px;
+            margin: 80px auto;
+            background: #dcdcdc;
+            border: 2px solid #3c9;
+            padding: 30px;
+        }
+
+        .title {
+            background: linear-gradient(#b6d4f2, #8fbce6);
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+            padding: 10px;
+            margin-bottom: 40px;
+            border-radius: 4px;
+        }
+
+        .form-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .label-box {
+            width: 120px;
+            background: #4a78c2;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            border-radius: 6px;
+            margin-right: 40px;
+            font-weight: bold;
+        }
+
+        .input-box {
+            width: 300px;
+            padding: 10px;
+            background: #b6d4f2;
+            border: 1px solid #7aa6d8;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 30px;
+        }
+
+        .btn {
+            width: 120px;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 8px;
+            border: 1px solid #444;
+            background: linear-gradient(#bcbcbc, #8f8f8f);
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: linear-gradient(#a9a9a9, #7d7d7d);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="title">Event Management System</div>
+
+    <div class="form-row">
+        <div class="label-box">User Id</div>
+        <input type="text" class="input-box" value="Admin">
+    </div>
+
+    <div class="form-row">
+        <div class="label-box">Password</div>
+        <input type="password" class="input-box" value="Admin">
+    </div>
+
+    <div class="buttons">
+        <button class="btn">Cancel</button>
+        <button class="btn">Login</button>
+    </div>
+</div>
+
+</body>
+</html>
